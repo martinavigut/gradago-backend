@@ -1,6 +1,8 @@
-package com.gradago.api;
+package com.gradago;
 
 import org.springframework.boot.SpringApplication;
+
+import com.gradago.GradagoBackendApplication;
 
 public class TestGradagoBackendApplication {
 

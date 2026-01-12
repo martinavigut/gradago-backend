@@ -1,4 +1,4 @@
-package com.gradago.api;
+package com.gradago;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

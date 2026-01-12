@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: gradago-postgres
+    environment:
+      POSTGRES_DB: gradago
+      POSTGRES_USER: gradago
+      POSTGRES_PASSWORD: gradago
+    ports:
+      - "5432:5432"
+    volumes:
+      - gradago_pg:/var/lib/postgresql/data
+
+volumes:
+  gradago_pg:
